@@ -32,10 +32,16 @@ header{
 }
 
 .logo{
+	position: relative;
+	top: -10px;
 	float: left;
 	width: 160px;
 	height: 40px;
-	background-color: #ccc;
+	background-color: transparent;
+	background-image: url('../images/logo-danki.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 
@@ -185,6 +191,9 @@ section.sessao2 img{
 	margin-top: 20px;
 	position: relative;
 	top: 70px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(117,117,117,1);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(117,117,117,1);
+	box-shadow: 2px 2px 5px 0px rgba(117,117,117,1);
 }
 
 
@@ -200,7 +209,7 @@ section.sessao2 img{
 	color: white;
 	float: left;
 	width: 50%;
-	padding: 140px 0 90px 0;
+	padding: 200px 0 90px 0;
 	background-color: #835FA7;
 }
 
@@ -267,6 +276,8 @@ section.sessao2 img{
 	border-radius: 30px;
 	position: relative;
 	top: -4px;
+	background-image: url('../images/eu.png');
+	background-size: contain;
 }
 
 .texto-autor{
@@ -301,7 +312,7 @@ section.sessao2 img{
 
 .sessao4{
 	background-color: #472536;
-	padding: 100px 0;
+	padding: 120px 0;
 }
 
 .form{
@@ -334,14 +345,16 @@ section.sessao2 img{
 	line-height: 58px;
 	border: 1px solid rgb(200, 200, 200);
 	margin-top: 8px;
+	font-size: 15px;
 }
 
 .form form textarea{
 	width: 90%;
 	max-width: 480px;
-	padding: 15px;
+	padding: 8px;
 	height: 160px;
 	border: 1px solid rgb(200, 200, 200);
+	font-size: 15px;
 	margin-top: 8px;
 }
 
@@ -393,6 +406,22 @@ section.sessao2 img{
 	background-color: white;
 }
 
+
+footer{
+	padding: 40px 2%;
+	background-color: #192123;
+	color: white;
+}
+
+footer p:nth-of-type(1){
+	float: left;
+	font-size: 14px;
+}
+
+footer p:nth-of-type(2){
+	font-size: 14px;
+	float: right;
+}
 
 /*
  *
@@ -604,6 +633,20 @@ section.sessao2 img{
 		margin-top: 20px;
 		top: 25px;
 	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer p:nth-of-type(1){
+		float: none;
+	}
+
+	footer p:nth-of-type(2){
+		float: none;
+		margin-top: 10px;
+	}
+
 
 }
 
