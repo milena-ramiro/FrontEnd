@@ -1,2 +1,2 @@
 # Frontend
-Projetos do curso Frontend
+## Projetos do curso Frontend
