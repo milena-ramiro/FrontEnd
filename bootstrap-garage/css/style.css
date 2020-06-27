@@ -427,7 +427,7 @@ footer nav ul li a{
 }
 
 .search1{
-	width: 300px;
+	width: 90%;
 }
 
 .search1 h2{
@@ -455,7 +455,7 @@ footer nav ul li a{
 	top: 0;
 	width: 30%;
 	height: 20px;
-	background-color: rgb(200, 200, 200);
+	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(200, 200, 200));
 	border-radius: 20px;
 }
 
@@ -467,8 +467,8 @@ footer nav ul li a{
 	width: 26px;
 	height: 26px;
 	border-radius: 8px;
-	background-color: rgb(210, 210, 210);
-	border: 1px solid black;
+	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(180, 180, 180));
+	border: 1px solid #777;
 }
 
 
@@ -515,6 +515,22 @@ footer nav ul li a{
 	display: inline-block;
 	vertical-align: top;
 	cursor: pointer;
+	position: relative;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + label > .circle{
+	display: block;
+}
+
+.circle{
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	background-color: black;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	display: none;
 }
 
 .form-venda-wraper span{
@@ -522,6 +538,88 @@ footer nav ul li a{
 	vertical-align: top;
 	display: inline-block;
 }
+
+.vitrine-venda{
+	float: left;
+	width: 70%;
+	overflow: hidden;
+}
+
+.vitrine-venda .vitrine-destaque{
+	margin-top: 20px;
+}
+
+.venda-single{
+	padding: 0 2%;
+}
+
+.venda-single .container{
+	padding: 40px 0;
+	max-width: 1000px
+}
+
+
+.info-veiculo{
+	padding-top: 15px;
+	float: left;
+	width: 60%;
+}
+
+.foto-destaque{
+	width: 100%;
+	padding-top: 70%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.nav-galeria{
+	width: 100%;
+	padding: 15px;
+	margin-top: 15px;
+	overflow: scroll;
+}
+
+.nav-galeria-wraper{
+	width: 200%;
+}
+
+.mini-img{
+	float: left;
+	border: 7px solid white;
+	background-position: center;
+	background-size: cover;
+	padding-top: calc(33.3% * (100 / 200) * 0.4); 
+	width: calc(33.3% * (100 / 200));
+}
+
+
+.descricao-veiculo{
+	float: left;
+	width: 40%;
+	padding: 20px;
+}
+
+.descricao-veiculo h2{
+	font-style: italic;
+	font-weight: normal;
+}
+
+.descricao-veiculo h3{
+	padding-top: 20px;
+}
+
+.descricao-veiculo p{
+	max-width: 360px;
+	margin-top: 20px;
+}
+
+.descricao-veiculo a{
+	margin-top: 20px;
+}
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -614,6 +712,29 @@ footer nav ul li a{
 
 	footer p{
 		float: none;
+	}
+
+
+	/* PÁGINA DE VENDA */
+
+	.sidebar{
+		width: 100%;
+		text-align: center;
+	}
+
+	.search1{
+		display: inline-block;
+	}
+
+	.search2{
+		display: inline-block;
+		text-align: left;
+	}
+
+	.vitrine-venda{
+		float: left;
+		text-align: center;
+		width: 100%;
 	}
 
 }
