@@ -22,7 +22,7 @@ header{
 
 .container{
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -406,6 +406,122 @@ footer nav ul li a{
 }
 
 
+
+/****** PAGINA DE VENDAS *******/
+
+
+/* SESSAO VENDAS */
+
+.venda{
+	min-height: 90%;
+	padding: 90px 0;
+}
+
+.content-venda{
+	margin-top: 40px;
+}
+
+.sidebar{
+	float: left;
+	width: 30%;
+}
+
+.search1{
+	width: 300px;
+}
+
+.search1 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+
+.search1 .barra-preco{
+	width: 100%;
+	height: 20px;
+	margin-top: 8px;
+	border-radius: 20px;
+	background-color: white;
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+
+
+.barra-preco-fill{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30%;
+	height: 20px;
+	background-color: rgb(200, 200, 200);
+	border-radius: 20px;
+}
+
+.pointer-barra{
+	cursor: pointer;
+	position: absolute;
+	left: calc(30% - 13px);
+	top: -3px;
+	width: 26px;
+	height: 26px;
+	border-radius: 8px;
+	background-color: rgb(210, 210, 210);
+	border: 1px solid black;
+}
+
+
+.valor-pesquisa{
+	margin-top: 9px;
+}
+
+.valor-pesquisa p{
+	color: black;
+	font-size: 15px;
+}
+
+.valor-pesquisa p:nth-of-type(1){
+	float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2){
+	float: right;
+}
+
+.search2{
+	margin-top: 40px;
+}
+
+.search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.form-venda-wraper{
+	margin-top: 10px;
+}
+
+.form-venda-wraper input[type=checkbox]{
+	display: none;
+}
+
+.form-venda-wraper label{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.form-venda-wraper span{
+	padding: 0 10px;
+	vertical-align: top;
+	display: inline-block;
+}
 
 /* MEDIA QUERIES */
 
