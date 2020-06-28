@@ -376,6 +376,7 @@ section.banner{
 
 
 footer{
+	margin-top: 20px;
 	padding: 30px 2%;
 	background-color: #252525;
 }
@@ -677,8 +678,63 @@ footer nav ul li a{
 	margin-top: 20px;
 }
 
+/***** PÁGINA SOBRE *****/
 
+/*SESSAO SOBRE*/
 
+.sobre{
+	min-height: 90%;
+	padding: 60px 2% 20px 2%;
+}
+
+.sobre .container{
+	margin-top: 30px;
+	max-width: 840px;
+}
+
+.sobre .img-destaque-sobre{
+	width: 100%;
+	padding-top: 60%;
+	background-color: #ccc;
+}
+
+section.sobre .descricao-equipe{
+	margin-top:20px;
+}
+
+section.sobre .descricao-equipe h2{
+	font-size: 24px;
+}
+
+section.sobre .descricao-equipe p{
+	font-size: 17px;
+	margin-top: 10px;
+	line-height: 28px;
+}
+
+.descricao-equipe2{
+	margin-top: 40px;
+}
+
+.img-small{
+	float: left;
+	width: 30%;
+	padding-top: 30%;
+	background-color: #ccc;
+	background-position: center;
+}
+
+.descricao-equipe2-small{
+	float: left;
+	width: 70%;
+	padding: 15px;
+}
+
+.descricao-equipe2-small p{
+	text-align: justify;
+	line-height: 28px;
+	font-size: 17px;
+}
 
 /* MEDIA QUERIES */
 
@@ -719,6 +775,19 @@ footer nav ul li a{
 	.vitrine-destaque a{
 		display: inline-block;
 		text-align: center;
+	}
+
+
+	/*SESSAO SOBRE*/
+
+	.img-small{
+		width: 100%;
+		padding-top: 100%;
+	}
+
+	.descricao-equipe2-small{
+		width: 100%;
+		padding: 20px 0;
 	}
 
 }
