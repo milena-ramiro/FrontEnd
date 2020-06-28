@@ -189,9 +189,12 @@ section.banner{
 .vitrine-destaque .carro-img{
 	width: 100%;
 	padding-top: 100%;
-	background-size: 100% 100%;
+	background-size: 100% 60%;
+	background-repeat: no-repeat;
+	background-position: center;
 	border: 8px solid white;
 }
+
 
 .vitrine-destaque h2{
 	padding-left: 8px;
@@ -649,6 +652,7 @@ footer nav ul li a{
 	padding-top: 70%;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
