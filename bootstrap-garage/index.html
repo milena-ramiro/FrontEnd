@@ -30,7 +30,7 @@
 					<li><a style="color: #EB2D2D;" href="index.html">Home</a></li>
 					<li><a href="venda.html">Venda</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a goto="contato" href="">Contato</a></li>
 				</ul>
 			</nav>
 
@@ -39,7 +39,7 @@
 					<li><a style="color: #EB2D2D;" href="index.html">Home</a></li>
 					<li><a href="venda.html">Venda</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a goto="contato" href="">Contato</a></li>
 				</ul>
 			</nav>
 
@@ -119,7 +119,7 @@
 						<li>Indicação de Mecânicos e peças</li>
 						<li>Consignação</li>
 					</ul>
-					<a class="btn1" href="#">Saiba mais</a>
+					<a class="btn1" href="sobre.html">Saiba mais</a>
 
 				</div><!--half1-wraper-->
 			</div><!--half1-->
@@ -132,11 +132,16 @@
 					<div class="depoimento-single">
 						<p>"O Rafael foi muito atencioso, me buscou no aeroporto e garantiu toda comodidade e conforto no almoço, no transfer, na visita ao veículo e durante o test-driver."</p>
 
+						<p>"Carros muito bonitos e
+						bem conservados, os funcionários
+						forem super atenciosos também!"</p>
+						
+
 						<div class="navigation">
 							<div class="arrows">
-								<img src="images/arrow-left.png">
+								<img prev src="images/arrow-left.png">
 
-								<img src="images/arrow-right.png">
+								<img next src="images/arrow-right.png">
 							</div><!--arows-->
 							<div class="nome-depoimento">João Da Silva</div>
 						</div><!--navigation-->
@@ -148,7 +153,7 @@
 
 		</section><!--servicos-descricao-->
 
-		<section class="contato"> 
+		<section id="contato" class="contato"> 
 
 			<div class="line-titulo">
 				<div class="ln-1"></div>
@@ -197,6 +202,9 @@
 				<div class="clear"></div>
 			</div><!--container-->
 		</footer>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
 
 	</body>
 
