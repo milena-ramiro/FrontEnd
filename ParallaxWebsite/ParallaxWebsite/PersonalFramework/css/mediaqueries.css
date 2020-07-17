@@ -1,0 +1,64 @@
+
+@media screen and (max-width: 1055px){
+
+	.mais-detalhes img.img{
+		width: 90%;
+	}
+
+
+}
+
+@media screen and (max-width: 985px){
+	
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+		width: 32px;
+		height: 32px;
+		background-image: url('../images/menu.png');
+		background-size: 100% 100%;
+		cursor: pointer;
+	}
+
+	.mobile ul{
+		display: none;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		top: 80px;
+		width: 100%;
+		color: white;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.mobile ul li{
+		border-bottom: 1px solid #6F6F6F;
+		padding: 8px 0;
+		transition: 0.4s;
+	}
+
+	.mobile ul li:hover{
+		background-color: rgb(230, 230, 230);
+	}
+
+	.mobile ul li a{
+		display: block;
+		width: 100%;
+		text-decoration: none;
+		color: #2B3F48;
+	}
+}
+
+
+@media screen and (max-width: 860px){
+	.w33{
+		width: 100%;
+		
+	}
+}
+
+
